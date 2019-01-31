@@ -1,0 +1,45 @@
+Current System Questions: 
+1) 
+-ID contacted by client 
+-Blueprints (less accurate) or physical measurements to achieve intial measurements
+-Take all square footage measurements in notebook
+	-Insulation and drywall considerated
+	-Equipment could chnage under special conditions
+	-Variance in drywall grade 
+	-Variance in insulation grade (R20 and R40) 
+	-Could be specified by either client or drywall guy, must follow regulations and dimensions 
+	-Material varies based on location
+-Then, all calculations done by same guy back at the office
+	-Time frame ballparked by measurement guy
+	-One guy (owner) does everything
+-Overestimate on purpose at this point, quoted price is price given no matter what
+-Sage is used to generate invoices
+-Low tech abilities from employees 
+-Variation wall to wall potentially
+-Sage produces pdf output that's printed
+
+Their Solution: 
+-Needs to be verified by owner
+-Calculation given range 
+-90% for ALL projects 
+-Software training is acceptable
+-Replacement for sage desirable for all in one soln
+-BC government building codes online 
+-Commercial and residential restrictions both considered (depending on projects)
+-Gabrioila island and ladysmith 
+-Manual override and web scraping 
+-Price matching
+-Company discounts 
+-No client measurement 
+-Mobile app of use 
+-Man hours do vary (effect rate of pay and speed of work)
+-Flexibility in employee stats needed due to transiency 
+
+Software-Specific:
+-all units imperial (consider converter on all inputs)
+-code checking not necessary, but a manually-overridable error indicator is useful
+-private only
+-proprietary hardware not necessary 
+-No maintenance budget
+-Pretty colors
+-Standard templates for different buildings
