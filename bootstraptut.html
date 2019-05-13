@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- <link rel="stylesheet" href="ml-social-buttons.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="font/font.css" type="text/css" charset="utf-8" /> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta charset="UTF-8">
+ 
+<!-- If IE use the latest rendering engine -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<!-- Set the page to the width of the device and set the zoon level -->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>WebPage</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 
+<style>
+
+.containerOne {
+    text-align: : center;
+    background-color:#000000;
+    padding: 355px 350px 375px 650px;
+}
+.containerTwo {
+    background-color:#EEEEEE;
+    padding: 310px;
+    text-align: center;
+}
+.containerThree{
+	/*text-align: center;*/
+	background-color:#12EFC5;
+    padding: 260px;
+}
+</style>
+ 
+</head>
+<body>
+ 
+<!-- CONTAINERS -->
+<!-- container puts padding around itself while container-fluid fills the whole screen. Bootstap grids require a container. -->
+<div id='topArea' class='containerOne'>
+<a href="#middleArea"><i class="material-icons" style ="font-size:30px;color:blue;">cloud</i></a>
+<a href="#bottomArea"><i class="material-icons" style ="font-size:30px;color:blue;">favorite</i></a>
+<i class="material-icons" style ="font-size:30px;color:blue;">attachment</i>
+<i class="material-icons" style ="font-size:30px;color:blue;">computer</i>
+<i class="material-icons" style ="font-size:30px;color:blue;">traffic</i>
+</body>
+</div>
+
+<div id='middleArea' class="containerTwo">
+<body >
+<h1>Hello world!</h1>
+<a href="#topArea"><button type="submit" class = "btn btn-warning btn-lg" >Top</button></a>
+</body>
+</div>
+
+
+<div id='bottomArea' class="containerThree">
+<body >
+
+<html>
+<head>
+<title>Send Us Email</title>
+</head>
+<body>
+<form action="takeform.php" method="POST">
+<p>
+<input
+name="email"
+size="64"
+maxlength="64"/>
+<b>Your</b> Email Address
+</p>
+<p>
+<input
+name="realname"
+size="64"
+maxlength="64"/>
+Your Real Name (<i>so our reply won't get stuck in your spam folder</i>)
+</p>
+<p>
+<input
+name="subject"
+size="64"
+maxlength="64"/>
+Subject Of Your Message
+</p>
+<p>
+<i>Please enter the text of your message in the field that follows.</i>
+</p>
+<textarea
+name="body"
+rows="10"
+cols="60">
+</textarea>
+<p>
+<input type="submit" name="send" value="Send Your Message"/>
+</p>
+</form>
+</body>
+</html>
+
+</body>
+</div> 
+
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
